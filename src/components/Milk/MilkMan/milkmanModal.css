@@ -1,0 +1,25 @@
+/* src/components/milkmanModal.css */
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(248, 249, 250, 0.9); /* Bootstrap color with transparency */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background-color: #ffffff !important; /* White background for modal */
+    padding: 2rem; /* Add some padding */
+    border-radius: 8px !important; /* Rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    width: 100%;
+    max-width: 500px; /* Set max-width for smaller screens */
+    opacity: 1 !important;
+  }
+  

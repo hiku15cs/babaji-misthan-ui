@@ -1,0 +1,12 @@
+.show-milk-container{
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+}
+label{
+    font-weight: 700;
+}
+.cal{
+    font-weight: 700;
+}
